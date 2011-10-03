@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>mate /Users/larry/scratch/scratch.textile</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^~@o</string>
+	<key>name</key>
+	<string>Open Scratch - Textile</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>637D6415-A7F3-40DA-AB38-F7AD694F9AA4</string>
+</dict>
+</plist>

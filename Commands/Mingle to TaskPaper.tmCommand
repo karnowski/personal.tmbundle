@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/ruby
+
+# LJK 2/11/09: converts text cut &amp; paste from a Mingle card to TaskPaper syntax
+# Handles the nested wiki syntax
+
+STDIN.readlines.each do |line|
+  line = line.gsub(/^\s+\*\s+/, "- ")
+  line = line.gsub(/^\s+\o\s+/, "\t- ")
+  puts line
+end</string>
+	<key>input</key>
+	<string>document</string>
+	<key>name</key>
+	<string>Mingle to TaskPaper</string>
+	<key>output</key>
+	<string>replaceDocument</string>
+	<key>uuid</key>
+	<string>3E7FF358-1961-4C25-B73C-82E9005CCD05</string>
+</dict>
+</plist>

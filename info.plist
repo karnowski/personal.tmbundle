@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Lawrence Karnowski’s Bundle</string>
+	<key>ordering</key>
+	<array>
+		<string>3E7FF358-1961-4C25-B73C-82E9005CCD05</string>
+		<string>CC691037-D05E-4B95-9F23-892F985EB114</string>
+		<string>637D6415-A7F3-40DA-AB38-F7AD694F9AA4</string>
+		<string>D085EBD8-2A6E-466C-BF14-F0BB8E839440</string>
+		<string>96B8DF1B-E783-4021-82F4-9A20E35B1104</string>
+	</array>
+	<key>uuid</key>
+	<string>7004D8C1-200B-4702-A242-6031EA256ED3</string>
+</dict>
+</plist>
